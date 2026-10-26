@@ -1,0 +1,25 @@
+[package]
+name = "macstill-screenshot"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+gpui-kit.workspace = true
+swiftui_gpui.workspace = true
+macstill-ui.workspace = true
+macstill-config.workspace = true
+macstill-hyprland.workspace = true
+macstill-capture = { path = "../../crates/macstill-capture" }
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+image.workspace = true
+chrono.workspace = true
+tempfile.workspace = true
+uuid = { version = "1", features = ["v5"] }
+
+[dev-dependencies]
+gpui-base = { version = "=0.8.0", features = ["test-support"] }
+gpui-platform-test = { package = "gpui-pre-platform", version = "=0.3.9", features = ["test-support"] }
+gpui-test = { package = "gpui-pre", version = "=0.3.9", features = ["test-support"] }

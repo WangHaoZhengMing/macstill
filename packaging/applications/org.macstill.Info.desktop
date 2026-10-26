@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=System Information
+Exec=/opt/macstill/bin/macstill-info --report
+Icon=computer
+Terminal=false
+Categories=System;Utility;
+StartupWMClass=org.macstill.Info

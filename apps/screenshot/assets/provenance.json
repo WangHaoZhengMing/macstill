@@ -1,0 +1,8 @@
+{
+  "firmware": "UniversalMac_15.0_24A335_Restore.ipsw",
+  "build": "24A335",
+  "source": "/System/Library/CoreServices/screencaptureui.app/Contents/Resources/Assets.car",
+  "export": "icon_256x256-589f9be04d6ff5b6.png",
+  "sha256": "33776c6d8b3a92b4c6a8f9ad359eb1b2606bf3f56b084a1d79d6dcebc8e3253d",
+  "copyright": "Apple Inc. Screenshot app icon extracted from user-provided macOS firmware."
+}

@@ -1,0 +1,36 @@
+[package]
+name = "finder"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+macstill-apps = { path = "../../../../crates/macstill-apps" }
+macstill-menu = { path = "../../../../crates/macstill-menu" }
+raw-window-handle = "0.6"
+macstill-hyprland = { path = "../../../../crates/macstill-hyprland" }
+macstill-airdrop = { path = "../../../../crates/macstill-airdrop" }
+fsearch = { path = "../fsearch" }
+anyhow = "1"
+serde_json = "1"
+serde = { version = "1", features = ["derive"] }
+tempfile = "3"
+xattr = "1"
+filetime = "0.2"
+notify = "8"
+chrono = "0.4"
+rust-embed = "8"
+image = { version = "0.25", features = ["png", "jpeg", "gif", "webp", "bmp", "ico", "tiff"] }
+
+gpui-kit = { workspace = true, features = ["component", "assets"] }
+libc = "0.2"
+url = "2"
+trash = { version = "5", features = ["chrono"] }
+
+[dev-dependencies]
+# Use the same backend test harness as Shell; Kit's aggregate feature also
+# resolves its unused gpui-fast backend and conflicts on cocoa versions.
+gpui-base = { version = "=0.8.0", features = ["test-support"] }
+gpui-component = { version = "=0.8.0", features = ["test-support"] }
+gpui-platform-test = { package = "gpui-pre-platform", version = "=0.3.9", features = ["test-support"] }
+gpui-test = { package = "gpui-pre", version = "=0.3.9", features = ["test-support"] }

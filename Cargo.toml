@@ -1,0 +1,73 @@
+[workspace]
+resolver = "3"
+members = [
+    "apps/shell",
+    "apps/settings",
+    "apps/info",
+    "apps/airdrop",
+    "apps/airdropd",
+    "apps/screenshot",
+    "apps/finder/crates/finder",
+    "apps/finder/crates/fsearch",
+    "crates/*",
+]
+default-members = [
+    "apps/shell",
+    "apps/settings",
+    "apps/info",
+    "apps/airdrop",
+    "apps/airdropd",
+    "apps/screenshot",
+    "apps/finder/crates/finder",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[patch.crates-io]
+# Click-only keyboard focus for Macstill's desktop background on Hyprland.
+gpui-pre-linux = { path = "vendor/gpui-pre-linux" }
+
+[workspace.dependencies]
+swiftui_gpui = { path = "crates/swiftui_gpui" }
+macstill-config = { path = "crates/macstill-config" }
+macstill-system = { path = "crates/macstill-system" }
+macstill-apps = { path = "crates/macstill-apps" }
+macstill-hyprland = { path = "crates/macstill-hyprland" }
+macstill-ui = { path = "crates/macstill-ui" }
+gpui-kit = { version = "=0.8.0", default-features = false }
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+gio = "0.21"
+notify = "8"
+roxmltree = "0.21"
+resvg = "0.46"
+freedesktop-icons = "0.4"
+image = { version = "0.25", default-features = false, features = [
+    "png",
+    "jpeg",
+    "webp",
+] }
+tempfile = "3"
+
+[profile.dev]
+debug = 0
+
+[profile.dev.package.fsearch]
+opt-level = 3
+
+[profile.profiling]
+inherits = "release"
+debug = 1
+strip = false
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true

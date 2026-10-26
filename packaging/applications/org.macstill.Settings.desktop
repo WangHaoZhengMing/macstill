@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=System Settings
+Exec=/opt/macstill/bin/macstill-settings
+Icon=/opt/macstill/share/macstill/icons/settings.png
+Terminal=false
+Categories=Settings;DesktopSettings;

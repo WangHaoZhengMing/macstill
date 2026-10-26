@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+NoDisplay=true
+Name=AirDrop
+Comment=Share files with nearby Apple devices
+Exec=/opt/macstill/bin/macstill-airdrop
+Icon=/opt/macstill/share/macstill/icons/airdrop.svg
+Terminal=false
+Categories=Network;FileTransfer;
+

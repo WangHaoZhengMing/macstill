@@ -1,0 +1,9 @@
+[package]
+name = "macstill-ui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+gpui-kit.workspace = true
+swiftui_gpui.workspace = true

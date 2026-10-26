@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.macstill.AirDrop
+Exec=/opt/macstill/bin/macstill-airdropd
+

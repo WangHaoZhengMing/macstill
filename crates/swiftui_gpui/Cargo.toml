@@ -1,0 +1,14 @@
+[package]
+name = "swiftui_gpui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Apple-style controls and visual tokens built on GPUI Kit's unstyled foundation"
+
+[dependencies]
+gpui-kit.workspace = true
+
+[dev-dependencies]
+# Enable the pinned backend test harness directly; Kit's test-support feature
+# also resolves its unused gpui-fast backend, which conflicts on cocoa versions.
+gpui-test = { package = "gpui-pre", version = "=0.3.9", features = ["test-support"] }

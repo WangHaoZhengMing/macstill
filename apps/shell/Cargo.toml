@@ -1,0 +1,33 @@
+[package]
+name = "macstill"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+async-channel = "2.5"
+macstill-menu = { path = "../../crates/macstill-menu" }
+macstill-config.workspace = true
+macstill-apps.workspace = true
+macstill-hyprland.workspace = true
+macstill-capture = { path = "../../crates/macstill-capture" }
+macstill-ui.workspace = true
+macstill-airdrop = { path = "../../crates/macstill-airdrop" }
+macstill-system.workspace = true
+swiftui_gpui.workspace = true
+gpui-kit.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+gio.workspace = true
+notify.workspace = true
+image.workspace = true
+freedesktop-icons.workspace = true
+uuid = { version = "1", features = ["v5"] }
+
+[dev-dependencies]
+gpui-base = { version = "=0.8.0", features = ["test-support"] }
+gpui-platform-test = { package = "gpui-pre-platform", version = "=0.3.9", features = ["test-support"] }
+gpui-test = { package = "gpui-pre", version = "=0.3.9", features = ["test-support"] }
+tempfile.workspace = true

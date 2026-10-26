@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Macstill
+Comment=Macstill desktop on standalone Hyprland
+Exec=/usr/local/bin/macstill-session
+TryExec=/usr/local/bin/macstill-session
+Type=Application
+DesktopNames=Macstill;Hyprland;

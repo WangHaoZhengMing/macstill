@@ -1,0 +1,23 @@
+{
+  "build": "macOS 15.0 24A335",
+  "source": "/System/Library/CoreServices/Dock.app/Contents/Resources",
+  "copyright": "Apple Inc. Assets extracted from user-provided firmware.",
+  "files": [
+    {
+      "file": "SpacesBarSpacePlus@2x.png",
+      "sha256": "683c4da238f72698b74538c0358b1d6d2f314deb723271e7492af28c3e8f6145"
+    },
+    {
+      "file": "SpacesBarClose@2x.png",
+      "sha256": "9729f9bb06ce1e2f52f7b62e69e54643b1bed94b1ebd1d2d2f694c031ef7105a"
+    },
+    {
+      "file": "SpacesBarClosePressed@2x.png",
+      "sha256": "692f7541fc1dcd075d07443b802fc47256cc0dae7c9e3ff922af190394044fdd"
+    },
+    {
+      "file": "expose-window-selection-small@2x.png",
+      "sha256": "4214652bcb0a2a2d8d977314cd78d6b807df5d03e922c962a13bb33a4fd94d58"
+    }
+  ]
+}

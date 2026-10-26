@@ -1,0 +1,11 @@
+/target
+**/target/
+__pycache__/
+*.py[cod]
+/dist/
+/work
+*.log
+
+/.dev/
+
+/misc/

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <defs>
+    <linearGradient id="screen" x2="0.8" y2="1"><stop stop-color="#267eb2"/><stop offset="1" stop-color="#69c6f4"/></linearGradient>
+    <linearGradient id="base" x2="0" y2="1"><stop stop-color="#e2e3e5"/><stop offset=".5" stop-color="#b3b5b9"/><stop offset="1" stop-color="#797c82"/></linearGradient>
+    <linearGradient id="edge" x2="0" y2="1"><stop stop-color="#94979c"/><stop offset="1" stop-color="#45474c"/></linearGradient>
+    <radialGradient id="shadow"><stop stop-opacity=".3"/><stop offset="1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="160" cy="180" rx="153" ry="8" fill="url(#shadow)"/>
+  <rect x="48" y="18" width="224" height="148" rx="6" fill="#414349"/>
+  <rect x="50" y="20" width="220" height="144" rx="4" fill="#101114"/>
+  <rect x="55" y="25" width="210" height="130" fill="url(#screen)"/>
+  <circle cx="160" cy="22" r="1" fill="#6c6f73"/>
+  <path d="M48 165H272L309 177Q313 179 307 182H13Q7 179 11 177Z" fill="url(#base)"/>
+  <path d="M11 179Q14 185 32 185H288Q306 185 309 179Z" fill="url(#edge)"/>
+  <path d="M54 166H266L281 173H39Z" fill="#585a60"/>
+  <path d="M62 167H258M54 169H266M46 171H274M72 166L67 173M88 166L85 173M104 166L102 173M120 166L119 173M136 166V173M152 166V173M168 166V173M184 166V173M200 166L201 173M216 166L218 173M232 166L235 173M248 166L253 173" fill="none" stroke="#9b9da1" stroke-width=".7"/>
+  <path d="M132 174H188L192 179H128Z" fill="#babcc0" stroke="#999ba0" stroke-width=".5"/>
+  <path d="M143 180H177L175 182H145Z" fill="#66686d"/>
+</svg>

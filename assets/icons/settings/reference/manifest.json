@@ -1,0 +1,87 @@
+[
+  {
+    "file": "appearance-light.png",
+    "source": "assets/Appearance__Assets/AppearanceLight@2x-727e8cc4686c5edc.png",
+    "sha256": "74bbb4e85e9ee687ce663f49bddfb4f52a0067ddd1ee559dce5c0e19d0457fa7"
+  },
+  {
+    "file": "appearance-dark.png",
+    "source": "assets/Appearance__Assets/AppearanceDark@2x-b7ce8052ae793e6a.png",
+    "sha256": "0b4597c066bdd0d7fd46480b0f1de654f34edad1d2cd66ef38339aee3347deeb"
+  },
+  {
+    "file": "bluetooth.png",
+    "source": "assets/Network__Assets/Bluetooth_Icon_32_@2x-e2c34fc6913f3181.png",
+    "sha256": "bbd3aa575f913ec48853b7d84efa8c945e566a1de914b1dc4b1dc6ada1edee89"
+  },
+  {
+    "file": "software-update.png",
+    "source": "assets/SoftwareUpdateSettingsExtension__Assets/Software_Update_Icon_40@2x-1-f441fbe9bd468787.png",
+    "sha256": "3ed60e89efd9cd2660f0e67e9020fced1927142e5ffb035e94021e8f0684716c"
+  },
+  {
+    "file": "time-machine.png",
+    "source": "assets/TimeMachineSettings__Assets/icon_32x32@2x-6c710f58e5f24d7f.png",
+    "sha256": "6e5d53733123a27ec55f6f60098ed8f8d037626df8e5efa4988137e368af6c64"
+  },
+  {
+    "file": "startup-disk.png",
+    "source": "assets/StartupDisk__Assets/icon_32x32@2x-08df65a8d03e961e.png",
+    "sha256": "59b2f9622243991b06041f10b9d78ed816b8b0150d45b04b5e18de8efe4a26ba"
+  },
+  {
+    "file": "resolution-1-light.png",
+    "source": "assets/DisplaysExt__Assets/Resolution1@2x-Light-e4e58ee3ece28922.png",
+    "sha256": "e240c77e111a200dca6522eb74f04c6ca1aac673d8dcbe8d1c8235dad3b16034"
+  },
+  {
+    "file": "resolution-1-dark.png",
+    "source": "assets/DisplaysExt__Assets/Resolution1@2x-Dark-1-bb88c20d3e52bf58.png",
+    "sha256": "0de0a5c55c2fea40752916148d7da256818504aa13912d91fbd0a0a6bdf3ff0e"
+  },
+  {
+    "file": "resolution-2-light.png",
+    "source": "assets/DisplaysExt__Assets/Resolution2@2x-Light-ab7575e83f60b00c.png",
+    "sha256": "e711077ef68e5889986c5f5684b8563bc21c7b02b20eeda4cfe46194896cd33b"
+  },
+  {
+    "file": "resolution-2-dark.png",
+    "source": "assets/DisplaysExt__Assets/Resolution2@2x-Dark-b7f56b1d98afb97a.png",
+    "sha256": "4f384a4f87105917992284079b3a2a70fea291ab1b7b93861275779d0eda34a5"
+  },
+  {
+    "file": "resolution-3-light.png",
+    "source": "assets/DisplaysExt__Assets/Resolution3@2x-Light-b631da412d44b5e4.png",
+    "sha256": "65f620a8db9a6f8f5283bf9e1344aadc758e6704d410f644e5d2a79c2af08719"
+  },
+  {
+    "file": "resolution-3-dark.png",
+    "source": "assets/DisplaysExt__Assets/Resolution3@2x-Dark-b3bc935e326b5c26.png",
+    "sha256": "c2d52fa17abd4332e0e12174b0e17591d001f3cf5c09a377504344d29e6b2960"
+  },
+  {
+    "file": "resolution-4-light.png",
+    "source": "assets/DisplaysExt__Assets/Resolution4@2x-Light-6a7e5998603ad149.png",
+    "sha256": "df5413b45f6434b82864ca34924029c69c992623a8d06788419a1d3259c74e0c"
+  },
+  {
+    "file": "resolution-4-dark.png",
+    "source": "assets/DisplaysExt__Assets/Resolution4@2x-Dark-b787aeb911888b8d.png",
+    "sha256": "c12d6597e39010c13d0a793566141c13e998cdc19b188790f2a0cd4a1e027799"
+  },
+  {
+    "file": "resolution-5-light.png",
+    "source": "assets/DisplaysExt__Assets/Resolution5@2x-Light-85315aa6a0750da3.png",
+    "sha256": "904ba64b3d45e055dbcfb478e0e99e5b86c32abe9c8bb3463fd324a1175093ef"
+  },
+  {
+    "file": "resolution-5-dark.png",
+    "source": "assets/DisplaysExt__Assets/Resolution5@2x-Dark-2fe81d386999a88d.png",
+    "sha256": "f5ef00d6fbfb34b8b21f8d4e04ac97e0aafee618cf3d56834e9ceee823c1ea5f"
+  },
+  {
+    "file": "computer.png",
+    "source": "assets/DisplaysExt__Assets/DisplaysPrefIcon@2x-30260b0a5529ca9a.png",
+    "sha256": "eacea9148782ce13d068e842da62a48d8944cfc08b943baac54f6b516aa814ef"
+  }
+]

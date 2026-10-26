@@ -1,0 +1,17 @@
+[package]
+name = "macstill-capture"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+image.workspace = true
+wayland-client = "0.31"
+wayland-backend = "0.3"
+wayland-scanner = "0.31"
+wayland-protocols-wlr = { version = "0.3", features = ["client"] }
+rustix = { version = "1", features = ["event", "fs"] }
+bitflags = "2"
+macstill-hyprland.workspace = true
+serde_json.workspace = true

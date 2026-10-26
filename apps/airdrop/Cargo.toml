@@ -1,0 +1,11 @@
+[package]
+name="macstill-airdrop-app"
+version.workspace=true
+edition.workspace=true
+license.workspace=true
+[[bin]]
+name="macstill-airdrop"
+path="src/main.rs"
+[dependencies]
+macstill-airdrop={path="../../crates/macstill-airdrop"}
+anyhow.workspace=true
