@@ -10,7 +10,7 @@ Macstill ist eine von macOS inspirierte Linux-Desktopumgebung auf Basis von **Ru
 ![Macstill-Desktopübersicht](assets/img/overview.png)
 
 ### Demo
-![Macstill-Desktopdemo](https://pic1.imgdb.cn/i/034mf8cvlHveAjkNNQ4RXV.gif)
+![Macstill-Desktopdemo](https://github.com/WangHaoZhengMing/assets/raw/main/ezgif-screen-recording-2026-10-26.mp4)
 
 ## Funktionen
 

@@ -10,7 +10,7 @@ Macstill は **Rust、GPUI、Hyprland** で構築された、macOS に着想を�
 ![Macstill デスクトップの概要](assets/img/overview.png)
 
 ### 動作デモ
-![Macstill デスクトップのデモ](https://pic1.imgdb.cn/i/034mf8cvlHveAjkNNQ4RXV.gif)
+![Macstill デスクトップのデモ](https://github.com/WangHaoZhengMing/assets/raw/main/ezgif-screen-recording-2026-10-26.mp4)
 
 ## 機能
 

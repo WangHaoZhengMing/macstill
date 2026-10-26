@@ -10,7 +10,7 @@ Macstill 是基于 **Rust、GPUI 和 Hyprland** 构建的 Linux 桌面环境，�
 ![Macstill 桌面概览](assets/img/overview.png)
 
 ### 动态演示
-![Macstill 桌面演示](https://pic1.imgdb.cn/i/034mf8cvlHveAjkNNQ4RXV.gif)
+![Macstill 桌面演示](https://github.com/WangHaoZhengMing/assets/raw/main/ezgif-screen-recording-2026-10-26.mp4)
 
 ## 功能
 
