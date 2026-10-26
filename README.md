@@ -10,7 +10,7 @@ A macOS-inspired Linux desktop environment built with **Rust, GPUI, and Hyprland
 ![Macstill desktop overview](assets/img/overview.png)
 
 ### In action
-![Macstill desktop demo](https://pic1.imgdb.cn/i/034mf8cvlHveAjkNNQ4RXV.gif)
+![Macstill desktop demo](https://github.com/WangHaoZhengMing/assets/raw/main/ezgif-screen-recording-2026-10-26.mp4)
 
 ## Features
 
