@@ -15,7 +15,8 @@ A macOS-inspired Linux desktop environment built with **Rust, GPUI, and Hyprland
 ## Features
 
 - **Launchpad** — application launcher and management interface.
-- **Finder** — file manager with integrated file search.
+- **Finder** — file manager with integrated file search.Edited From [Pranav Karthik](https://github.com/pranavkarthik10/Finder?tab=readme-ov-file)
+
 - **Stage Manager** — window grouping and switching.
 - **Mission Control** — workspace and window overview.
 - **Dock** — pinned applications and running indicators.
